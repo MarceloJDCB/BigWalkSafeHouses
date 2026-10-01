@@ -45,7 +45,7 @@ O mod se atualiza sozinho toda vez que você abre o jogo. Na sala, o host confer
 | 🌞 **Dia** | Só coisas estranhas: vultos, passos, mato mexendo, uma voz conhecida chamando. |
 | 🌑 **Noite** | O Demônio caça. Antes dele chegar, o mato mexe, os passos se aproximam e o farol pisca. |
 | 🗼 **Torres** | O único chão seguro. Lá dentro ele não te pega... mas fica rondando lá fora. |
-| 🟢 **Checkpoint** | Encaixe uma cabaça numa torre e ela vira seu ponto de volta. |
+| 🟢 **Checkpoint** | Chegar numa torre faz dela o checkpoint do grupo. A próxima só libera depois de encaixar a cabaça na atual. |
 | ❤️ **Vidas** | 3 por jogador. Perdeu todas? Você volta **sozinho** para o último checkpoint. |
 
 **O que você precisa saber sobre ele:**
