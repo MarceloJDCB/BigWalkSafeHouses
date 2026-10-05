@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/MarceloJDCB/BigWalkSafeHouses/releases/latest/download/BigWalkSafeHouses-instalador.zip"><b>⬇ Download the installer</b></a>
+  <a href="https://github.com/fogline34/BigWalkSafeHouses/releases/latest/download/BigWalkSafeHouses-instalador.zip"><b>⬇ Download the installer</b></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/MarceloJDCB/BigWalkSafeHouses/releases">All versions</a>
+  <a href="https://github.com/fogline34/BigWalkSafeHouses/releases">All versions</a>
   &nbsp;·&nbsp;
   <a href="README.md">Português</a>
 </p>
@@ -29,7 +29,7 @@ At night, **the Devil** releases **the Demon**: a hunched figure with a pointed 
 
 **Everyone in the lobby must install it.**
 
-1. Download the [**installer**](https://github.com/MarceloJDCB/BigWalkSafeHouses/releases/latest/download/BigWalkSafeHouses-instalador.zip) and extract it anywhere.
+1. Download the [**installer**](https://github.com/fogline34/BigWalkSafeHouses/releases/latest/download/BigWalkSafeHouses-instalador.zip) and extract it anywhere.
 2. Close Big Walk and double-click **`INSTALAR.bat`**. It finds the game on Steam and downloads BepInEx if missing.
 3. Launch the game. The first start takes 1–2 minutes with a black console window; that is normal.
 

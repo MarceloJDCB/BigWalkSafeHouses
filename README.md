@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/MarceloJDCB/BigWalkSafeHouses/releases/latest/download/BigWalkSafeHouses-instalador.zip"><b>⬇ Baixar o instalador</b></a>
+  <a href="https://github.com/fogline34/BigWalkSafeHouses/releases/latest/download/BigWalkSafeHouses-instalador.zip"><b>⬇ Baixar o instalador</b></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/MarceloJDCB/BigWalkSafeHouses/releases">Todas as versões</a>
+  <a href="https://github.com/fogline34/BigWalkSafeHouses/releases">Todas as versões</a>
   &nbsp;·&nbsp;
   <a href="README.en.md">English</a>
 </p>
@@ -29,7 +29,7 @@ De dia, a caminhada parece normal. Um vulto no canto do olho. Passos atrás de v
 
 **Todo mundo da sala precisa instalar.**
 
-1. Baixe o [**instalador**](https://github.com/MarceloJDCB/BigWalkSafeHouses/releases/latest/download/BigWalkSafeHouses-instalador.zip) e extraia numa pasta qualquer.
+1. Baixe o [**instalador**](https://github.com/fogline34/BigWalkSafeHouses/releases/latest/download/BigWalkSafeHouses-instalador.zip) e extraia numa pasta qualquer.
 2. Feche o Big Walk e dê dois cliques em **`INSTALAR.bat`**. Ele acha o jogo na Steam e baixa o BepInEx se estiver faltando.
 3. Abra o jogo. A primeira abertura demora 1 a 2 minutos com um console preto, e isso é normal.
 
