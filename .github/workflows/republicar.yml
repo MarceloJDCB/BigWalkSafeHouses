@@ -1,0 +1,41 @@
+# Recria um release como github-actions[bot]: baixa os arquivos do release atual (rascunho ou publicado),
+# apaga e cria de novo com o mesmo título, notas e arquivos. Opcional: troca o latest.json pelo conteúdo informado.
+name: republicar
+on:
+  workflow_dispatch:
+    inputs:
+      tag: { description: "tag do release (ex.: v0.10.1)", required: true }
+      latest: { description: "true = marcar como último release", required: false, default: "true" }
+      manifest: { description: "conteúdo novo do latest.json (opcional)", required: false, default: "" }
+permissions:
+  contents: write
+concurrency: { group: republicar, cancel-in-progress: false }
+jobs:
+  republicar:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      TAG: ${{ inputs.tag }}
+      LATEST: ${{ inputs.latest }}
+      MANIFEST: ${{ inputs.manifest }}
+    steps:
+      - name: Recriar
+        run: |
+          set -euo pipefail
+          mkdir a && cd a
+          gh api "repos/$GH_REPO/releases?per_page=100" --jq ".[] | select(.tag_name==\"$TAG\")" > rel.json
+          test -s rel.json || { echo "release $TAG nao encontrado"; exit 1; }
+          id=$(jq -r .id rel.json); name=$(jq -r .name rel.json); jq -r '.body // ""' rel.json > ../notas.md
+          pre=$(jq -r .prerelease rel.json)
+          for u in $(jq -r '.assets[].url' rel.json); do
+            n=$(gh api "$u" --jq .name)
+            curl -fsSL -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/octet-stream" "$u" -o "$n"
+          done
+          rm rel.json
+          if [ -n "$MANIFEST" ]; then printf '%s\n' "$MANIFEST" > latest.json; fi
+          ls -la
+          gh api -X DELETE "repos/$GH_REPO/releases/$id"
+          flags=(--title "$name" --notes-file ../notas.md --latest="$LATEST")
+          if [ "$pre" = "true" ]; then flags+=(--prerelease); fi
+          gh release create "$TAG" "${flags[@]}" ./*
