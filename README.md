@@ -13,6 +13,8 @@
   <a href="https://github.com/MarceloJDCB/BigWalkSafeHouses/releases/latest/download/BigWalkSafeHouses-instalador.zip"><b>⬇ Baixar o instalador</b></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/MarceloJDCB/BigWalkSafeHouses/releases">Todas as versões</a>
+  &nbsp;·&nbsp;
+  <a href="README.en.md">English</a>
 </p>
 
 ---
