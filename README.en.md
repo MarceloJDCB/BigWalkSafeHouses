@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="arte-promocional.png" alt="Big Walk: Safe Houses" width="100%">
+  <img src="arte-promocional-en.png" alt="Big Walk: Safe Houses" width="100%">
 </p>
 
 <h1 align="center">Big Walk: Safe Houses</h1>
