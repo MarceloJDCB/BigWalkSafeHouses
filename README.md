@@ -56,8 +56,38 @@ O mod se atualiza sozinho toda vez que você abre o jogo. Na sala, o host confer
 - Correu? **Ele corre também.**
 - Lanterna na cara espanta, mas **ele aprende**.
 - Colado em você, **nada te salva**.
+- **Só o olhar da vítima protege.** Se outra pessoa encarar o monstro, isso não salva quem está sendo caçado.
+- O **chamado** (a voz de um amigo vindo do mato) sozinho não dá bote: é isca. O perigo é ficar encarando o ponto da voz ou chegar perto demais.
+- O **pátio onde todos nascem** é zona protegida: ele não entra ali.
 - Lanternas tremendo = ele está perto. Tremendo rápido = prepare-se.
 - A cada noite ele fica mais esperto. Da terceira noite em diante, mais rápido.
+
+## Os três monstros
+
+Só um aparece em cena por vez, e cada um pede uma defesa diferente. Quem escolhe é o **Diretor**: ele segue um ritmo de tensão, pico e alívio, chama o monstro que combina com a situação (alguém isolado, grupo dividido ou grupo junto) e fica mais exigente conforme vocês avançam nas torres e nas noites. Depois de um ataque sempre vem um respiro de verdade.
+
+> Na dúvida, aperte **J**: o **caderno de campo** mostra cada monstro e como se defender. Ele também abre pelo menu principal.
+
+- **Perseguidor:** o de capuz, descrito acima. Caça à noite, escondido atrás de árvores e pedras.
+- **Sussurrador:** só anda enquanto **ninguém** olha para ele. Se **qualquer** pessoa do grupo encarar, ele congela. Revezem o olhar e nunca virem as costas para onde ele foi visto.
+- **Mímico:** vira **um jogador do grupo**, imita o jeito dele e chama com a **voz** da pessoa. A voz nunca trafega pela rede: cada um ouve o que o próprio PC já tinha gravado.
+  - **Pistas:** não faz barulho de passos e não carrega item na mão.
+  - **Como desmascarar:** lanterna nele por 2 segundos, ou o jogador de verdade falar enquanto a cópia está à vista.
+
+### Última vida
+
+Quando o monstro te pega na **última vida**, ele te **decapita** numa cena longa. Nas outras vidas é só o agarrão, com sangue escuro.
+
+## 🔫 Modo arma (Fun Mod)
+
+Opcional. Quem cria a partida liga em **Modo arma**, logo abaixo do número de jogadores.
+
+- **Uma** espingarda de cano duplo por partida. Ela está na saída do pátio inicial, onde ficaria uma tocha.
+- **2 cartuchos em cada safe house.** Só pega quem estiver com a arma na mão; cabem 2 na arma.
+- O tiro espanta os monstros e deixa tudo em silêncio por um tempo... **mas eles voltam com raiva**.
+- **Fogo amigo ligado.** E arremessar a arma carregada pode disparar sozinha, inclusive em você.
+
+Sem o Modo arma, o jogo é só terror, como sempre foi.
 
 ## 🗣️ Ele ouve vocês
 
@@ -66,6 +96,11 @@ Falar alto atrai o Demônio. E o que vocês disserem pode **voltar mais tarde, v
 Não vá até lá.
 
 > **Privacidade:** as frases ficam só na memória durante a partida. **Nada é gravado em disco** e nada sai da sessão de vocês.
+
+## Idioma / Language
+
+O mod segue o idioma do Big Walk na Steam: **português** ou **inglês**.
+The mod follows your Steam language for Big Walk: **Portuguese** or **English**. To force one, set `Idioma = pt` or `en` in `BepInEx\config\SafeHouses.Loader.cfg`.
 
 ## Problemas?
 
